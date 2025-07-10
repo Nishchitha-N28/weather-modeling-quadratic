@@ -1,9 +1,7 @@
 with open("file1.txt", "r") as f:
     line = f.readline()
     a, b, c = map(float, line.split())
-
 D = b**2 - 4*a*c
-
 if D < 0:
     print("No real roots")
 else:
